@@ -1,0 +1,53 @@
+.box{
+    /* border:두께 스타일 색상 */
+    border:50px solid red;
+    width:200px;
+    /* padding : 요소 안쪽 여백 */
+    padding:50px;
+    margin-bottom:20px;
+}
+.green{
+    border-color:green;
+    /* display:none; */
+    /* 화면에서 보이지 않음.위치도 차지하지 않음 */
+
+    visibility:hidden
+    /* 화면에 보이지 않음.공간은 남아있음 */
+}
+.blue{
+    border-color: blue;
+}
+
+/* practice 2 */
+h1{
+    color:#9b59b6;
+}
+h1::before {
+    content: "Topic: ";
+  }
+h1:first-child {
+    text-align: center;
+  }
+p{
+    font-size: 16px;
+    font-family:verdana;
+    font-style: italic;
+}
+p::first-letter {
+    font-size: 200%;
+    color: #2980b9;
+  }
+
+.challenge2{
+    background-color: #fff;
+    background-image:
+    linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+    linear-gradient(#eee .1em, transparent .1em);
+    background-size: 100% 1.2em;
+    padding:10%;
+}
+
+.sub-header{
+    color:#2980b9;
+
+}

@@ -1,0 +1,32 @@
+.login{
+    background-color:lightcoral ;
+}
+.login:hover{
+    background-color: indianred;
+}
+.blue{
+    color:cadetblue;
+    background-color:aliceblue;
+}
+.img-size{
+    width:300px;
+    height:200px;
+    border-width: 200px;
+}
+.margin{
+    width:280px;
+    height:300px;
+    border-radius:17%;
+    margin-top:10px;
+    margin-bottom: 20px;
+}
+
+input{
+    background-color :lavenderblush;
+    border-width: 0; 
+}
+
+li::marker{
+    content:'★  ';
+    color: pink;
+}

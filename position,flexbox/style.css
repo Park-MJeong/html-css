@@ -1,0 +1,80 @@
+.box{
+    width: 120px;
+    height: 120px;
+    background-color: cornflowerblue;
+}
+.practice{
+    margin:10px;
+}
+.one_location{
+    display: flex;
+    justify-content:space-between;
+}
+.one_box2{
+    margin-right:15px;
+}
+.two_location{
+    display: flex;
+    flex-direction:column;
+}
+/* 
+flex-direction:column으로 인해 align적용시 요소가 가로로 움직임 */
+.two_box2{
+    align-self:center;
+}
+.two_box3{
+    align-self:flex-end;
+}
+.three_location{
+    display: flex;
+    justify-content:center;
+}
+.big{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(28, 102, 239);
+    position: relative;
+}
+/* 부모 태그에relative속성 부여해야함!!아니라면
+body태그가 relative를 기본 속성으로 가지고 있기 때문에 boby태그 기준으로 움직임 */
+.small{
+    width: 75px;
+    height: 75px;
+    background-color: cornflowerblue;
+    position: absolute;
+    top:25%;
+    right:25%;
+}
+
+.four_box2{
+    background-color:aquamarine;
+    position: absolute;
+    top:30px;
+    left:30px;
+}
+/* square 위치 */
+.five_location{
+    display:flex;
+    justify-content: flex-end;
+
+}
+.square{
+    width: 600px;
+    height: 200px;
+    background-color:darkorchid;
+    position: relative;
+}
+.fivebox{
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    background-color: antiquewhite;
+}
+._2{
+    bottom:0px;
+    left:0px;
+}
+._3{
+    top:0px;
+    right:0px;
+}

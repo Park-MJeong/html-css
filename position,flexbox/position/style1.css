@@ -1,0 +1,16 @@
+.box{
+    height: 150px;
+    width: 150px;
+    background-color:blueviolet;
+    color:white
+}
+.location{
+    display: flex;
+    flex-direction:column;
+}
+.lo2{
+    align-self:center;
+}
+.lo3{
+    align-self:flex-end;
+}

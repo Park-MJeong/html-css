@@ -1,0 +1,16 @@
+.box{
+    height: 150px;
+    width: 150px;
+    background-color:black;
+    color: white;
+}
+.location{
+    display: flex;
+    justify-content:space-between;
+}
+.box2{
+    margin-right: 10px;
+}
+.lo2{
+    display: flex;
+}

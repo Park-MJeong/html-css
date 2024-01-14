@@ -1,0 +1,143 @@
+/* body{
+    display: contents;
+} */
+.circle{
+  
+    border-radius: 50%;
+    background:rgb(255, 255, 255);
+    padding: 1em;
+}
+.circle:hover{
+
+    border-radius: 50%;
+    background:lightblue;
+    padding: 1em;
+}
+
+.navbar{
+    margin:20px;
+}
+.navbarright{
+    float:right;
+}
+
+.navitem{
+    /* <a>는 밑줄이 따라옴*/
+    /* text-decoration은 상속되지x직접적으로 적용해야함 */
+    text-decoration: none;
+    color:black;
+    margin-right:15px;
+}
+.navitem:hover{
+    text-decoration: underline;
+}
+
+.main{
+    margin-top:150px;
+    text-align: center;
+}
+.input-area{
+    margin-top:20px
+}
+.input-box{
+    width:561px;
+    height:44px;
+    border-radius: 24px;
+    border:1px solid #dfe1e5;
+    text-align: left;
+    padding-left:50px;
+    padding-right: 100px;
+    font-size:16px;
+}
+.input-box:hover{
+    box-shadow: 5px 5px 15px rgba(0,0,0,.1);
+    color: #202124;
+ }
+
+.icon{
+    position:relative;
+    color: #9aa0a6;
+}
+.icon:hover{
+    color:dimgray
+}
+.search{
+
+    left:40px;
+}
+.keyboard{
+    right:90px;
+}
+.mic{
+    right:83px;
+}
+.camera{
+    right:75px;
+}
+
+.button-area{
+    padding-top:18px;
+}
+.button-style{
+    height:36px;
+    background-color: #f8f9fa;
+    border:1px solid #f8f9fa;
+    border-radius: 4px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+
+    /*padding에는 값이 여러개 입력가능  */
+    /* 1개:4방향이 같음, 2개:위아래,좌우방향 */
+    padding:0 16px;
+    margin:11px 4px;
+ }
+ .button-style:hover{
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+ }
+.language-area{
+    padding-top:18px;
+}
+
+.language{
+    /* <a>는 밑줄이 따라옴*/
+    text-decoration: none;
+    margin-right:8px;
+}
+.language:hover{
+    text-decoration: underline;
+}
+
+.footer{
+    /* absolute : 절대값기준으로 움직임 */
+    position: absolute;
+    bottom:0px;
+    background-color: #f2f2f2;
+    /* 본인의 부모에 대한 % */
+    width:100%
+}
+.first-line{
+    padding:15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.second-line{
+    padding:15px 30px;
+}
+
+.bottom-bar{
+    text-decoration: none;
+    color: black;
+    font-size:14px;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bottom-bar:hover{
+    text-decoration: underline;
+}
+.second-line-second{
+    float:right;
+}

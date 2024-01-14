@@ -1,0 +1,16 @@
+.box{
+    height: 150px;
+    width: 150px;
+}
+
+.lo1{
+    background-color:indianred;
+    color:white;
+}
+.lo2{
+    background-color:coral;
+    color:white;
+    position: absolute;
+    left: 80px;
+    top:80px;
+}

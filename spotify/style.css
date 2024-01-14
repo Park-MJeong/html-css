@@ -1,0 +1,146 @@
+.nav{
+    height:80px;
+    background-color: black;
+    /* 가로정렬 */
+    display:flex;
+    /* 하위 요소를,세로선상,nav안에서 중간에 위치 */
+    align-items:center;
+    /* 하위 요소,가로선상,동일한 간격으로 배치 */
+    justify-content: space-around;
+
+}
+.nav_item{
+    font-weight: 700;
+    font-size:medium;
+    /* padding: [상/하] [좌/우] */
+    padding:0px 15px
+}
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+a:hover{
+    color:#1ed760;
+
+}
+
+/* main 요소들  */
+.main{
+    height: 968px;
+    background-color:rgb(41,65,171);
+    background-image: url(https://www-growth.scdn.co/static/home/bursts.svg);
+    background-size: 175%;
+    background-position: 46% 4%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction:column;
+}
+._main{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:140px;
+    color:#1ed760;
+    font-weight:1000;
+
+}
+._first{
+    position: relative;
+    right:130px;
+}
+._second{
+    position: relative;
+    left:210px;
+}
+._sub{
+    color:#1ed760;
+    font-size: 18px;
+    font-weight: 500;
+    padding:30px 0px;
+}
+button{
+    color:#2941ab;
+    background-color:#1ed760;
+    font-weight: 700;
+    font-size: 15px;
+    border-radius:50px;
+    border:none;
+    padding:15px 30px;
+}
+button:hover{
+    background-color: #2de26d;
+    /* scale 확대 */
+    transform: scale(1.1) 
+}
+
+/* footer 요소들 */
+.footer{
+    height: 530px;
+    background-color: black;
+    /* footerbox를 가운데로 배치시키기 위해 필요 */
+    display: flex;
+    justify-content: center;
+  }
+.footerbox{
+    max-width: 1170px;
+    width: 100%;
+
+}
+.first{
+    margin: 80px 0px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.menu{
+    /* menu,icon부분 6:4로 나눔 */
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.icon{
+    width: 40%;
+    display:flex;
+    justify-content: flex-end;
+}
+.__second{
+    display:flex;
+    flex-direction:column;
+}
+.title{
+    color:#919496;
+    font-weight: 700;
+}
+.title_item{
+    padding-bottom:15px;
+    padding-top: 10px;
+    font-size: 16px;
+}
+
+.icon_box{
+    padding: 20px;
+    border-radius: 50%;
+    background:#222322;
+}
+.icon_size{
+    font-size:20px;
+}
+.first_line{
+    color:#919496;
+    font-size: 15px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.second_line{
+    color: #919496;
+    display: flex;
+    justify-content:space-between;
+
+}
+.second-line-item {
+    margin-right: 24px;
+    color: #919496;
+  }
+
+
